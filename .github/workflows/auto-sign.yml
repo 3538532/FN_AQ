@@ -5,7 +5,7 @@ name: 自动签到
 on:
   schedule:
     # 每天北京时间 6:00 执行（对应 UTC 16:00，时区差异注意）
-    - cron: '0 22 * * *'
+    - cron: '45 23 * * *'
   workflow_dispatch: # 允许在 GitHub 网页端手动触发该工作流
 
 # 定义执行任务
